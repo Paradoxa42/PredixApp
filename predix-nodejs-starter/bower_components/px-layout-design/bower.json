@@ -1,0 +1,32 @@
+{
+  "name": "px-layout-design",
+  "version": "0.3.14",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Predix UI layout engine",
+  "main": "_objects.layout.scss",
+  "keywords": [
+    "px",
+    "sass",
+    "grid",
+    "layout"
+  ],
+  "homepage": "https://github.com/PredixDev/px-layout-design.git",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass",
+    ".github",
+    "OSS_Notice.pdf"
+  ],
+  "dependencies": {
+    "px-defaults-design": "~0.2.0"
+  },
+  "devDependencies": {
+    "px-sass-doc": "~0.2.0",
+    "px-starter-kit-design": "~0.6.0"
+  }
+}

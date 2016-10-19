@@ -1,0 +1,21 @@
+{
+  "name": "groupthreetempname",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "swapnavad",
+    "gstroup"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Paradoxa42/PredixApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "px-spinner": "^0.4.2"
+  }
+}
