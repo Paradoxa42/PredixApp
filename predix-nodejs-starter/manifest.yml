@@ -1,14 +1,14 @@
 ---
 applications:
-- name: predix-nodejs-starter
+- name: groupthreetempname
   memory: 128M
   buildpack: nodejs_buildpack
   #command:  DEBUG=express:* node app.js
   command:  node app.js
-#services:
- # - <your-name>-secure-uaa-instance
- # - <your-name>-timeseries-instance
- # - <your-name>-asset-instance
+services:
+ - teamthree-uaa
+ - teamthree-time-series
+ - teamthree-asset
 env:
     node_env: cloud
     uaa_service_label : predix-uaa
